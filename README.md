@@ -13,7 +13,7 @@ This repository contains the implementation of **DLBS-VEHMS**, an intelligent an
 3. **VehiChain Security Layer:** A lightweight, blockchain-based integrity layer utilizing SHA-256 cryptographic hashing to detect tampering at the Electronic Control Unit (ECU).
 
 ## Dataset
-Trained and evaluated on the **AI4I 2020 Predictive Maintenance Dataset** (10,000 data points, 14 features).
+Trained and evaluated on the **AI4I Predictive Maintenance Dataset** (10,000 data points, 14 features).
 
 ## Results & Performance
 * **Detection Performance:** The 1D-CNN pipeline achieved an ROC-AUC of **0.977** and a Recall of **0.85**.
@@ -24,3 +24,17 @@ Trained and evaluated on the **AI4I 2020 Predictive Maintenance Dataset** (10,00
 
 ## License
 [MIT License](LICENSE)
+
+## Repository Structure
+- `notebooks/` - Jupyter notebooks for dataset analysis and implementation.
+- `docs/` - Thesis report (PDF) and project presentation (PPTX, if available).
+- `data/` - Dataset location (place `ai4i.csv` here if you have it).
+
+## Quickstart (Reproducibility)
+1. Create and activate a virtual environment.
+2. Install dependencies:
+   - `pip install -r requirements.txt`
+3. Ensure the dataset is available at `data/ai4i.csv`.
+4. Open and run the notebooks in order:
+   - `notebooks/Dataset_Analysis_DLBS_VEHMS.ipynb`
+   - `notebooks/Implementation_DLBS_VEHMS.ipynb`

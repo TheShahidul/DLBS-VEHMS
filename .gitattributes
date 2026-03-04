@@ -1,0 +1,12 @@
+* text=auto
+
+# Notebooks
+*.ipynb text eol=lf
+
+# Documentation binaries
+*.pdf binary
+*.pptx binary
+*.ppt binary
+
+# Data (if added)
+*.csv text eol=lf
